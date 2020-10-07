@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Sailec-Light";
+}
+nav{
+  background-color: white;
+}
+.navbar-brand img{
+  height: 100%;
+
+}
+#nav_color{
+  background-color: white;
+}
+#btn_color{
+  border-color: #006AFF;
+  color:#006AFF;
+}
+.jumbotron{
+  color: white;
+  background-image: url("../img/09202e9a-bg-home-hero-3.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jumbotron p{
+  padding-top: 10px;
+  font-size: 22px;
+}
