@@ -6,12 +6,19 @@
 body{
   font-family: "Sailec-Light";
 }
+a{
+ color: #006AFF;
+}
 nav{
   background-color: white;
 }
 .navbar-brand img{
   height: 100%;
 
+}
+.fa-bars{
+  height: 50px;
+  line-height: 50px;
 }
 #nav_color{
   background-color: white;
@@ -22,11 +29,144 @@ nav{
 }
 .jumbotron{
   color: white;
-  background-image: url("../img/09202e9a-bg-home-hero-3.svg");
+  background-image: url("../img/bg-home-hero-3.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.jumbotron p{
+
+#hero_jumbo{
+  margin-bottom: 0;
+}
+.jumbotron h2{
+  color: black;
+}
+.jumbotron .col-lg-6 p{
   padding-top: 10px;
   font-size: 22px;
+}
+.jumbotron .row .col-lg-5{
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.jumbotron .btn_account{
+  background-color: #579AFF;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  width: 100%;
+  height: 30px;
+}
+.jumbotron .btn_google{
+  margin-top: 5px;
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  color: grey;
+  font-weight: bold;
+  border-radius: 5px;
+  position: relative;
+}
+.jumbotron .btn_google img{
+  width: 25px;
+  position: absolute;
+  padding-left: 5px;
+  top:50%;
+  left:0;
+  transform: translate(0 , -50%);
+}
+.jumbotron .row .col-lg-5 p{
+  color: #43567A;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.customer{
+  text-align: center;
+  background-color: #F3F5F9;
+}
+.customer h4{
+  padding-top: 40px;
+  margin-top: 0;
+  opacity: 0.8;
+}
+.customer img{
+  width: 180px;
+}
+.customer > img:not([alt="Splunk Logo"]){
+  padding-right: 10px;
+}
+.customer p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.optimize{
+  text-align: center;
+}
+.optimize .row:nth-child(2n){
+  text-align: left;
+}
+.optimize p{
+  font-size: 16px;
+}
+.optimize ul{
+  text-align: left;
+  list-style-type: none;
+  /* border-left:1px solid;
+  border-color: #CCCCCC; */
+}
+.optimize ul li{
+  padding-left: 10px;
+  font-size: 18px;
+  padding-top:10px;
+  border-left:1px solid;
+  border-color: #CCCCCC;
+}
+.optimize ul li:hover{
+  border-color: #006AFF;
+  font-weight: bold;
+}
+.optimize ul li:last-child{
+  padding-bottom: 10px;
+}
+.optimize ul li a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
+}
+.optimize > .container > .row > .col-lg-4 > .row > .col-lg-9{
+  padding-top: 20px;
+}
+.for_developers{
+  background-color: #F3F5F9;
+}
+.for_developers h1{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.for_developers p{
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+.for_developers > .container > .row{
+  text-align: center;
+}
+.for_developers .col-lg-1{
+line-height: 650px;
+font-size: 35px;
+opacity: 0.7;
+}
+.for_developers .col-lg-1:hover{
+  opacity: 1;
+}
+.for_developers img{
+  width: 100%;
+}
+.for_developers .fa{
+  color: #006AFF;
+  border-color: #006AFF;
+  padding: 2px;
+  padding-bottom: 50px;
 }

@@ -6,7 +6,8 @@
     <title>Digital Ocean</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- font-->
+    <!-- fonts-->
+    <link href="//db.onlinewebfonts.com/c/61b43418b9624db49ba89da5d1b7eec8?family=Sailec-Bold" rel="stylesheet" type="text/css"/>
     <link href="//db.onlinewebfonts.com/c/2fe381b3d8cf4ee5f331668970d8a65a?family=Sailec-Light" rel="stylesheet" type="text/css"/>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -18,10 +19,10 @@
       <nav id="nav_color" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <div class="row">
-            <div class="col-xs-2">
+            <div class="col-lg-2 col-md-4 col-xs-4">
               <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
             </div>
-            <div class="col-xs-5 col-xs-offset-1">
+            <div class="col-lg-5 col-lg-offset-1 hidden-md hidden-xs hidden-sm">
               <ul class="nav navbar-nav">
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
@@ -51,7 +52,7 @@
                 <li><a href="#">Pricing</a></li>
               </ul>
             </div>
-            <div class="col-xs-4">
+            <div class="col-lg-4 hidden-md hidden-xs hidden-sm">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Docs</a></li>
                 <li class="dropdown">
@@ -70,23 +71,130 @@
                 </form>
               </ul>
             </div>
+            <div class="col-xs-2 col-xs-offset-6 col-md-1 col-md-offset-7 hidden-lg">
+              <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            </div>
           </div>
         </div><!-- /.container -->
       </nav>
-      <div class="jumbotron">
+      <div id="hero_jumbo" class="jumbotron">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
               <h1>The simplest cloud platform for developers & teams</h1>
               <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
             </div>
-            <div class="col-lg-6">
-              <h1></h1>
-              
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1">
+              <h2>Deploy your app in seconds</h2>
+              <h2><a href="#">Get Started now.</a></h2>
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <button class="btn_account">Create your account</button>
+                <button class="btn_google"><img src="https://img.icons8.com/color/48/000000/google-logo.png"/>Sign up with google</button>
+              </form>
+              <p>By signing up you agree to the <a href="#">Terms of Service</a>.</p>
             </div>
           </div>
         </div>
       </div>
     </header>
+    <main>
+      <section class="customer">
+        <h4>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h4>
+        <img src="img/docker-logo.svg" alt="Docker Logo">
+        <img src="img/gitlab-logo.svg" alt="GitLab Logo">
+        <img src="img/slack-logo.svg" alt="Slack Logo">
+        <img src="img/hashicorp-logo.svg" alt="HashiCorp Logo">
+        <img src="img/wework-logo.svg" alt="WeWork Logo">
+        <img src="img/splunklogo.svg" alt="Splunk Logo">
+        <p><a href="#">View customer stories &gt;</a></p>
+      </section>
+      <section class="optimize">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-xs-12">
+              <h1>Deploy and scale seamlessly</h1>
+              <p>Our optimized configuration process saves your team time when running and scaling distributed applications, Al & machine learning workloads, hoasted services, client websites, or CI/CD environments.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-xs-12">
+              <ul>
+                <li><a href="#">Deploy</a></li>
+                <li><a href="#">Manage</a></li>
+                <li><a href="#">Secure</a></li>
+                <li><a href="#">Scale</a></li>
+                <li><a href="#">Monitor</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-xs-12">
+              <div class="row">
+                <div class="col-lg-9 col-md-9 col-xs-12">
+                  <img src="img/icon-website-hosting.svg" alt="Cluster">
+                  <h3>Cluster deployments</h3>
+                  <p>Provision multiple Droplets (virtual machines) in second with our control panel, CLI, or directly against our API.</p>
+                </div>
+                <div class="col-lg-9 col-md-9 col-xs-12">
+                  <img src="img/featured-AP-icon.svg" alt="">
+                  <h3>Optimized compute types</h3>
+                  <p>Get the compute resources you need with Standard of Optimized Droplets</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+              <div class="row">
+                <div class="col-lg-9 col-md-9 col-xs-12">
+                  <img src="img/stacksplusicon.svg" alt="">
+                  <h3>One-click apps</h3>
+                  <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+                </div>
+                <div class="col-lg-9 col-md-9 col-xs-12">
+                  <img src="img/dropletinboxicon.svg" alt="">
+                  <h3>Global availability</h3>
+                  <p>Deploy to any of our data center regions around the world.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="for_developers">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1>Designed for developers</h1>
+              <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="glyphicon glyphicon-chevron-left col-lg-1 col-md-1 hidden-sm hidden-xs">
+            </div>
+            <div class="col-lg-10 col-md-10 col-xs-12">
+              <img src="img/create-droplet.jpg" alt="Screenshoot Droplet">
+            </div>
+            <div class="glyphicon glyphicon-chevron-right col-lg-1 col-md-1 hidden-sm hidden-xs">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 hidden-sm hidden-xs">
+              <h3>Create compute servers in 55 seconds or less</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <i class="fa fa-circle" aria-hidden="true"></i>
+              <i class="fa fa-circle-thin" aria-hidden="true"></i>
+              <i class="fa fa-circle-thin" aria-hidden="true"></i>
+              <i class="fa fa-circle-thin" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
