@@ -163,17 +163,13 @@ button{
 .love_do > .container > .row{
   text-align: center;
 }
-.for_developers .col-lg-1{
-line-height: 650px;
+.for_developers .glyphicon{
 font-size: 35px;
 opacity: 0.7;
 }
-.for_developers .col-lg-1:hover,
-.love_do .col-lg-3:hover{
+.for_developers .glyphicon:hover,
+.love_do .glyphicon:hover{
   opacity: 1;
-}
-.for_developers img{
-  width: 100%;
 }
 .for_developers .fa,
 .love_do .fa{
@@ -235,38 +231,36 @@ opacity: 0.7;
 .love_do h1{
   padding-bottom: 5rem;
 }
-.love_do .col-lg-6 {
+.love_do #rocker_box {
+  width: 70%;
+  vertical-align: middle;
+  display: inline-block;
   text-align: center;
   background-color: white;
   padding-bottom: 5rem;
 
 }
-.love_do .col-lg-6 img{
-  padding-top: 5rem;
-}
-.love_do .col-lg-6 p{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.love_do #rocker_box p{
   padding-top: 1rem;
-  font-size: 2rem;
+  font-size: 2.1rem;
 }
-.love_do .col-lg-6 h4{
+.love_do #rocker_box h4{
  font-weight: bold;
 }
-.love_do .col-lg-6 a{
+.love_do #rocker_box h5{
+  padding-bottom: 2rem;
+}
+.love_do #rocker_box a{
   font-size: 1.8rem;
 }
-.love_do .col-lg-3{
-  line-height: 358px;
+.love_do .glyphicon-menu-left, .love_do .glyphicon-menu-right{
+  padding: 1rem;
   font-size: 35px;
   opacity: 0.7;
+  vertical-align: middle;
   }
-.glyphicon-chevron-left{
-  text-align: right;
-}
-.glyphicon-chevron-right{
-  text-align: left;
+.love_do img{
+  padding-top: 5rem;
 }
 .love_do .fa{
   padding-top: 5rem;
