@@ -5,20 +5,31 @@
 }
 body{
   font-family: "Sailec-Light";
+  font-size:62.5%;
 }
 a{
  color: #006AFF;
 }
+p{
+    font-size: 1.6rem;
+}
+small{
+  font-size: 1.4rem;
+}
 nav{
   background-color: white;
+  font-size: 1.5rem;
+}
+button{
+  font-size: 1.5rem;
 }
 .navbar-brand img{
   height: 100%;
 
 }
 .fa-bars{
-  height: 50px;
-  line-height: 50px;
+  height: 5rem;
+  line-height: 5rem;
 }
 #nav_color{
   background-color: white;
@@ -41,13 +52,12 @@ nav{
   color: black;
 }
 .jumbotron .col-lg-6 p{
-  padding-top: 10px;
-  font-size: 22px;
+  padding-top: 1rem;
 }
 .jumbotron .row .col-lg-5{
   border-radius: 5px;
   background-color: white;
-  margin-top: 40px;
+  margin-top: 4rem;
   text-align: center;
 }
 
@@ -72,20 +82,23 @@ nav{
 .jumbotron .btn_google img{
   width: 25px;
   position: absolute;
-  padding-left: 5px;
+  padding-left: 0.5rem;
   top:50%;
   left:0;
   transform: translate(0 , -50%);
 }
 .jumbotron .row .col-lg-5 p{
   color: #43567A;
-  font-size: 14px;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
 }
 .customer{
   text-align: center;
   background-color: #F3F5F9;
+}
+.customer a, .business_needs a{
+  font-size: 2rem;
 }
 .customer h4{
   padding-top: 40px;
@@ -96,20 +109,17 @@ nav{
   width: 180px;
 }
 .customer > img:not([alt="Splunk Logo"]){
-  padding-right: 10px;
+  padding-right: 1rem;
 }
 .customer p{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .optimize{
   text-align: center;
 }
 .optimize .row:nth-child(2n){
   text-align: left;
-}
-.optimize p{
-  font-size: 16px;
 }
 .optimize ul{
   text-align: left;
@@ -118,9 +128,9 @@ nav{
   border-color: #CCCCCC; */
 }
 .optimize ul li{
-  padding-left: 10px;
-  font-size: 18px;
-  padding-top:10px;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  padding-top:1rem;
   border-left:1px solid;
   border-color: #CCCCCC;
 }
@@ -129,7 +139,7 @@ nav{
   font-weight: bold;
 }
 .optimize ul li:last-child{
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
 }
 .optimize ul li a {
   text-decoration: none;
@@ -137,20 +147,20 @@ nav{
   opacity: 0.6;
 }
 .optimize > .container > .row > .col-lg-4 > .row > .col-lg-9{
-  padding-top: 20px;
+  padding-top: 2rem;
 }
-.for_developers{
+.for_developers, .love_do{
   background-color: #F3F5F9;
 }
-.for_developers h1{
-  padding-top: 20px;
-  padding-bottom: 10px;
+.for_developers h1, .love_do h1{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 .for_developers p{
-  font-size: 18px;
-  padding-bottom: 30px;
+  padding-bottom: 3rem;
 }
-.for_developers > .container > .row{
+.for_developers > .container > .row,
+.love_do > .container > .row{
   text-align: center;
 }
 .for_developers .col-lg-1{
@@ -158,15 +168,123 @@ line-height: 650px;
 font-size: 35px;
 opacity: 0.7;
 }
-.for_developers .col-lg-1:hover{
+.for_developers .col-lg-1:hover,
+.love_do .col-lg-3:hover{
   opacity: 1;
 }
 .for_developers img{
   width: 100%;
 }
-.for_developers .fa{
+.for_developers .fa,
+.love_do .fa{
   color: #006AFF;
   border-color: #006AFF;
   padding: 2px;
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
+  font-size: 1.4rem;
+}
+.business_needs {
+  padding-bottom: 60px;
+}
+.business_needs h1{
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.around_world{
+  background-color: #00209B;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.around_world h1{
+  padding-top: 5rem;
+  text-align: center;
+  font-weight: bold;
+}
+.around_world ul{
+  list-style-type: none;
+  font-size: 2rem;
+  width: 100%;
+}
+.around_world ul li:not(.not_this){
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+.around_world ul li{
+  padding-top: 1rem;
+}
+.around_world ul li a{
+  color:#00C4CF;
+}
+.around_world .not_this{
+  padding-bottom: 5rem;
+}
+.li_acronym{
+  width: 15%;
+  display: inline-block;
+}
+.li_city{
+  width: 55%;
+  display: inline-block;
+}
+.around_world > .container > .row > .col-xs-12 > ul li a{
+  width: 30%;
+}
+.love_do h1{
+  padding-bottom: 5rem;
+}
+.love_do .col-lg-6 {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 5rem;
+
+}
+.love_do .col-lg-6 img{
+  padding-top: 5rem;
+}
+.love_do .col-lg-6 p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+.love_do .col-lg-6 h4{
+ font-weight: bold;
+}
+.love_do .col-lg-6 a{
+  font-size: 1.8rem;
+}
+.love_do .col-lg-3{
+  line-height: 358px;
+  font-size: 35px;
+  opacity: 0.7;
+  }
+.glyphicon-chevron-left{
+  text-align: right;
+}
+.glyphicon-chevron-right{
+  text-align: left;
+}
+.love_do .fa{
+  padding-top: 5rem;
+}
+.get_started {
+  padding-top: 4rem;
+  color: white;
+  text-align: center;
+  background-image: url("../img/bg-home-cta.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.get_started button{
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  color: #006AFF;
+  background-color: white;
+  padding: 5px 20px 5px 20px;
+  border: none;
+  border-radius: 5px;
 }
