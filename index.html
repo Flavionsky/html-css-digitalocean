@@ -106,12 +106,14 @@
     <main>
       <section class="customer">
         <h4>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h4>
-        <img src="img/docker-logo.svg" alt="Docker Logo">
-        <img src="img/gitlab-logo.svg" alt="GitLab Logo">
-        <img src="img/slack-logo.svg" alt="Slack Logo">
-        <img src="img/hashicorp-logo.svg" alt="HashiCorp Logo">
-        <img src="img/wework-logo.svg" alt="WeWork Logo">
-        <img src="img/splunklogo.svg" alt="Splunk Logo">
+        <ul>
+          <li><img src="img/docker-logo.svg" alt="Docker Logo"></li>
+          <li><img src="img/gitlab-logo.svg" alt="GitLab Logo"></li>
+          <li><img src="img/slack-logo.svg" alt="Slack Logo"></li>
+          <li><img src="img/hashicorp-logo.svg" alt="HashiCorp Logo"></li>
+          <li><img src="img/wework-logo.svg" alt="WeWork Logo"></li>
+          <li><img src="img/splunklogo.svg" alt="Splunk Logo"></li>
+        </ul>
         <p><a href="#">View customer stories <small class="glyphicon glyphicon-chevron-right"></small></a></p>
       </section>
       <section class="optimize">
@@ -220,29 +222,145 @@
       </section>
       <section class="around_world">
         <div class="container">
-          <div class="row">
+          <div class="not_first row">
             <div class="col-xs-12">
               <h1>Service your customers around the world from 12 regions.</h1>
             </div>
-            <div class="col-lg-6 col-md-12 col-xs-12">
-              <ul>
-                <li><strong class="li_acronym">AMS2</strong><div class="li_city">Amsterdam, Netherlands</div><a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a></li>
-                <li><strong class="li_acronym">AMS3</strong><span class="li_city">Amsterdam, Netherlands</span><a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a></li>
-                <li><strong class="li_acronym">BLR1</strong><span class="li_city">Bangalore, India</span><a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a></li>
-                <li><strong class="li_acronym">FRA1</strong><span class="li_city">Frankfurt, German</span><a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a></li>
-                <li><strong class="li_acronym">LON1</strong><span class="li_city">London, UK</span><a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a></li>
-                <li class="not_this"><strong class="li_acronym">NYC1</strong><span class="li_city">New York, USA</span><a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a></li>
-              </ul>
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <div class="row">
+              <div class="col-xs-3">
+                <strong class="li_acronym">AMS2</strong>
+              </div>
+              <div class="col-xs-5">
+                <div class="li_city">Amsterdam, Netherlands</div>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a>
+              </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-xs-12">
-              <ul>
-                <li><strong class="li_acronym">AMS2</strong><div class="li_city">Amsterdam, Netherlands</div><a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a></li>
-                <li><strong class="li_acronym">AMS3</strong><span class="li_city">Amsterdam, Netherlands</span><a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a></li>
-                <li><strong class="li_acronym">BLR1</strong><span class="li_city">Bangalore, India</span><a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a></li>
-                <li><strong class="li_acronym">FRA1</strong><span class="li_city">Frankfurt, German</span><a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a></li>
-                <li><strong class="li_acronym">LON1</strong><span class="li_city">London, UK</span><a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a></li>
-                <li class="not_this"><strong class="li_acronym">NYC1</strong><span class="li_city">New York, USA</span><a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a></li>
-              </ul>
+            <div class="row">
+              <div class="col-xs-3">
+                <strong class="li_acronym">AMS3</strong>
+              </div>
+              <div class="col-xs-5">
+                <span class="li_city">Amsterdam, Netherlands</span>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-3">
+                <strong class="acronym">BLR1</strong>
+              </div>
+              <div class="col-xs-5">
+                <span class="city">Bangalore, India</span>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-3">
+                <strong class="li_acronym">FRA1</strong>
+              </div>
+              <div class="col-xs-5">
+                <span class="li_city">Frankfurt, German</span>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-3">
+                <strong class="li_acronym">LON1</strong>
+              </div>
+              <div class="col-xs-5">
+                <span class="li_city">London, UK</span>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a>
+              </div>
+            </div>
+            <div id="not_this1" class="row">
+              <div class="col-xs-3">
+                <strong class="li_acronym">NYC1</strong>
+              </div>
+              <div class="col-xs-5">
+                <span class="li_city">New York, USA</span>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <div class="row">
+              <div class="col-xs-3">
+                <strong class="li_acronym">AMS2</strong>
+              </div>
+              <div class="col-xs-5">
+                <div class="li_city">Amsterdam, Netherlands</div>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-3">
+                <strong class="li_acronym">AMS3</strong>
+              </div>
+              <div class="col-xs-5">
+                <span class="li_city">Amsterdam, Netherlands</span>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-3">
+                <strong class="li_acronym">BLR1</strong>
+              </div>
+              <div class="col-xs-5">
+                <span class="li_city">Bangalore, India</span>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-3">
+                <strong class="li_acronym">FRA1</strong>
+              </div>
+              <div class="col-xs-5">
+                <span class="li_city">Frankfurt, German</span>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-3">
+                <strong class="li_acronym">LON1</strong>
+              </div>
+              <div class="col-xs-5">
+                <span class="li_city">London, UK</span>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a>
+              </div>
+            </div>
+            <div id="not_this2" class="row">
+              <div class="col-xs-3">
+                <strong class="li_acronym">NYC1</strong>
+              </div>
+              <div class="col-xs-5">
+                <span class="li_city">New York, USA</span>
+              </div>
+              <div class="col-xs-4">
+                <a href="#">Test speed <small class="glyphicon glyphicon-chevron-right"></small></a>
+              </div>
             </div>
           </div>
         </div>
@@ -308,8 +426,8 @@
               </div>
             </div>
             <div class="col-lg-2 col-md-6 col-xs-12">
+              <div class="li_title">Company</div>
               <ul>
-                <li class="li_title">Company</li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Leadership</a></li>
                 <li><a href="#">Link</a></li>
@@ -323,8 +441,8 @@
               </ul>
             </div>
              <div class="col-lg-2 col-md-6 col-xs-12">
+               <div class="li_title">Products</div>
                <ul>
-                 <li class="li_title">Products</li>
                  <li><a href="#">Droplets</a></li>
                  <li><a href="#">Spaces</a></li>
                  <li><a href="#">Kubernetes</a></li>
@@ -339,8 +457,8 @@
                </ul>
              </div>
              <div class="col-lg-2 col-md-6 col-xs-12">
+               <div class="li_title">Community</div>
                <ul>
-                 <li class="li_title">Community</li>
                  <li><a href="#">Tutorials</a></li>
                  <li><a href="#">Meetups</a></li>
                  <li><a href="#">Q&A</a></li>
@@ -354,8 +472,8 @@
                </ul>
              </div>
              <div class="col-lg-2 col-md-6 col-xs-12">
+               <div class="li_title">Support</div>
                <ul>
-                 <li class="li_title">Support</li>
                  <li><a href="#">Contact support</a></li>
                  <li><a href="#">FAQ</a></li>
                  <li><a href="#">Network Status</a></li>

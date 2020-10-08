@@ -105,6 +105,9 @@ button{
   margin-top: 0;
   opacity: 0.8;
 }
+.customer ul li{
+  display: inline-block;
+}
 .customer img{
   width: 180px;
 }
@@ -202,34 +205,25 @@ opacity: 0.7;
   text-align: center;
   font-weight: bold;
 }
-.around_world ul{
-  list-style-type: none;
+.around_world{
   font-size: 2rem;
-  width: 100%;
 }
-.around_world ul li:not(.not_this){
+.around_world .row:not(.not_first) {
   border-bottom: 1px solid white;
-  padding-bottom: 10px;
-}
-.around_world ul li{
+  padding-bottom: 1rem;
   padding-top: 1rem;
 }
-.around_world ul li a{
+#not_this1, #not_this2{
+  border: none;
+}
+.around_world ["col-"]{
+  padding-top: 1rem;
+}
+.around_world a{
   color:#00C4CF;
 }
 .around_world .not_this{
-  padding-bottom: 5rem;
-}
-.li_acronym{
-  width: 15%;
-  display: inline-block;
-}
-.li_city{
-  width: 55%;
-  display: inline-block;
-}
-.around_world > .container > .row > .col-xs-12 > ul li a{
-  width: 30%;
+  padding-bottom: 2rem;
 }
 .love_do h1{
   padding-bottom: 5rem;
